@@ -1,0 +1,207 @@
+/*titulo*/
+
+*{
+   margin: 0 auto;
+}
+.page{
+    font-family: arial;
+    background-color: rgb(202, 206, 209);
+}
+.row{
+    clear: both;
+    overflow: auto;
+}
+
+table, td, th{
+
+    border-bottom: solid 1px rgb(202, 206, 209);
+    border-collapse: collapse;
+    padding: 7px;
+    
+    
+    
+}
+
+h1{
+    float: left;
+    min-width: 50%;
+    font-size: 16px;
+    padding-left: 50px;
+    padding-top: 10px;
+    padding-bottom: 100px;
+
+}
+
+h2{
+    font-size: 20px;
+    padding: 10px;
+}
+
+h3{
+    font-size: 14px;
+    padding-top: 20px;
+
+}
+
+th{
+    color: darkgrey;
+    font-weight: normal;
+    font-size: 14px;
+    text-align:center;
+    
+}
+
+td{
+    font-size: 14px;
+    text-align: center;
+}
+
+/*cabeçalho*/
+
+.header{
+
+    background-color: rgb(87, 87, 131);
+    color: #fff;
+    overflow: auto;
+}
+
+.Menu{
+    bottom: 0%;
+    clear: both;
+    padding-left: 25%;
+    padding-right: 25%;
+    width: 80%;
+    margin-right: 0%;
+    
+   
+}
+.menuIten{
+    float: left;
+    width: 12,5%;
+    height: 80px;
+    text-align: center;
+
+
+}
+
+/*grupos*/
+
+.ranking{
+    width: 50%;
+    background-color: aliceblue;
+    padding: 20px;
+}
+
+.tableranking{
+    width: 100%;
+}
+.thClubName{
+    width:50%;
+}
+
+.tdPosition{
+    width: 3%;
+}
+
+.tdImgClub{
+    width: 5%;
+}
+
+.imgClub{
+    width: 20px;
+    height: 20px;
+}
+.gameWin{
+    background-image: url("../imagem/v.svg");
+    background-repeat: no-repeat;
+    height: 16px;
+    width: 16px;
+    float: right;
+    margin-right: 5px;
+}
+.gameLos{
+    background-image: url("../imagem/d.svg");
+    background-repeat: no-repeat;
+    height: 16px;
+    width: 16px;
+    float: right;
+    margin-right: 5px;
+}
+.gameDrw{
+    background-image: url("../imagem/e.svg");
+    background-repeat: no-repeat;
+    height: 16px;
+    width: 16px;
+    float: right;
+    margin-right: 5px;
+}
+
+.tdClubeName{
+    width: 42%;
+}
+
+.thLast{
+    width: 20%;
+}
+
+/*goleadores*/
+
+.goals{
+    background-color: aliceblue;
+    width: 50%;
+    padding: 20px;
+}
+
+.tableGoals{
+    width: 100%;
+}
+
+.tdPlayerName{
+    text-align: left;
+    width: 90%;
+}
+
+.spanClubName{
+    font-size: 12px;
+    color: darkgrey;
+}
+
+/*jogos*/
+
+.matches{
+
+    background-color: aliceblue;
+    width: 50%;
+    padding: 20px;
+
+}
+
+.tableAllmatches{
+    width: 100%;
+    
+}
+.tablematches{
+    width: 100%;
+}
+
+.tablematches .tdClubName {
+    width: 80%;
+    text-align: left;
+}
+
+.tdTotal{
+    font-size: 14px;
+    color: darkgray;
+    text-align: left;
+}
+
+.tablematches th, .tablematches td,.tablematches  {
+    border-bottom: 0px;
+}
+.tdTime{
+    font-size: 10px;
+}
+
+
+
+
